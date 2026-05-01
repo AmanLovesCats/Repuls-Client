@@ -1,53 +1,65 @@
-# Version 1.21.3 Release
+# Repuls Client
+🎮️ [Repuls.io](https://repuls.io) is a free game accessible from any browser or on your favorite gaming sites like Poki! You can play it without downloading, without an account, without paying, anywhere, and with the guarantee of unforgettable matches with your friends. Looking for dynamic, multiplayer gameplay? In Repuls, you ride motorcycles, climb cliffs, dominate the opposing team with sniper, pilot Guardian hovercrafts, fire plasma rifles, miniguns, or rocket launchers, and stomp vehicles with a giant mech!
 
-- Added discord bot and client linking which automatically allows you to see your account stats anytime on discord directly.(Use F12)
+⭐️ This client is here while we wait for the official client **to offer you slightly better performance than your usual browser** and **add a few features** (details below). To download it, go to [the releases page](https://github.com/AmanLovesCats/Repuls-Client/releases). Changelog is [here](#changelog). You can first check the files with an antivirus if you wish, there's not a lot in here anyway. Enjoy!
 
-This new version comes with extra features to bump the purpose of a client. Yes it still has performance upgrades but it has been noticed that these upgrades may vary from user to user, in my case the FPS has an increment of almost 50-60 frames.
+> [!NOTE]
+> The client is available on Windows. To use the client on a Unix system, or to report any security issues, please use the GitHub issues or contact me (AmanLovesCats) directly on Discord (*`aman_and_cats`*).
 
-New Features:
+> [!CAUTION]
+> [Repuls.io](https://repuls.io) is a game developed by [docski](https://github.com/tahirG?tab=sponsoring). THIS IS AN UNOFFICIAL CLIENT NOT AFFILIATED TO DOCSKI.
 
-- Dynamic Discord RPC: The Discord RPC now tells whether you are in the lobby, in a game or even in the store browsing or buying. Users can join you directly from your profile by clicking Join Game button. In case you have too many stalkers or don't want people to be able to join your game, you can press F6 to disable/enable the Join Game Button(thanks fuunara).
+Inspired by [NeXiDE's NeXi-Client](https://github.com/NeXi-Client/NeXi-Client). Created by AmanLovesCats.
 
-- Dynamic Join Links: In case you want to invite someone to your game and don't have joins on, then you can press F9 to immediately copy a dynamic invite link ready for discord, simply paste it in discord and the user can join from there.
-
-- Personal Special Stats: There are some stats of our profiles that we do not know of, such as when we created our account, what are our top weapons and how many kills we have with that weapon, what is the longest win streak I have and so on, you can view these stats by pressing F12, and then pasting it in discord. This can be used to flex too lol.
-
-Google login support was improved, there is an attempt to force webGPU but it most likely won't work, that's about it.
-
-REPULS.IO is a game developed by [@developer-docski](https://github.com/tahirG?tab=sponsoring). This is just a native client made by me so that you can use the tiny benefits of a client before its release. Currently supports Windows(V1.21.1 Released). THIS IS AN UNOFFICIAL CLIENT NOT AFFILIATED TO DOCSKI.
-
-
-## What this client does:
-- Boosts FPS a bit more than your browser.
-- Uses your CPU and GPU for rendering.
+## Details of the client
+### Main features
+#### Improves performance
+- Boosts FPS a bit more than your browser
+- Uses your CPU and GPU for rendering
 - Implements different flags client sided to increase performance.
-- Allows almost any size of monitor to run the game.
-- Uses Chromium browser for maximum efficiency.
-- Uses personal UserAgent to optimize as per browser.
-
-## Some extra features:
-- Opens links in your default browser.
-- Built-in shortcuts (mentioned below).
 - Delayed opening and disabled frame rate limit.
+#### Improves the user experience
 - Supports higher DPI than normal browser.
+- Allows almost any size of monitor to run the game.
 - Includes Discord RPC.
-  
-## Commands:
-- Ctrl +F1: Reload client with Full reset
-- Ctrl + F5: Reload with cache removal
-- F1: Reload
-- F6: Enable/Disable Game joins
-- F9: Copy Invite Link to game
-- F11: Fullscreen
-- F12: Copy User stats to keyboard.
+- *Opens links in your default browser.*
 
+### Commands (built-in shortcuts)
+- <kbd>F1</kbd> Reload
+- <kbd>Ctrl+F1</kbd> Reload client with Full reset
+- <kbd>Ctrl+F5</kbd> Reload with cache removal
+- <kbd>F6</kbd> Enable/Disable Game joins
+- <kbd>F9</kbd> Copy Invite Link to game
+- <kbd>F11</kbd> Fullscreen
+- <kbd>F12</kbd> Copy your ID to get your statistics via the Discord bot associated with the client.
 
-Google Support added in Version 1.20.5
+## Changelog
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![GitHub Release](https://img.shields.io/github/v/release/AmanLovesCats/Repuls-Client?include_prereleases&style=flat&logo=auto&color=blue&link=https%3A%2F%2Fgithub.com%2Fpandaroux007%RepulsBot%2Freleases)
 
-Auto Updates added in Version 1.20.9
+## Supported Versions
+| Version  |      Supported     |
+| -------  | ------------------ |
+| 1.21.3   | :white_check_mark: |
+| 1.21.2   | :white_check_mark: |
+| 1.21.1   | :white_check_mark: |
+| < 1.21.0 |      :x:           |
 
-You can check the files with an antivirus first if you like, there's not a lot in here anyway.
+### v1.21.3
+> This new version comes with extra features to bump the purpose of a client. Yes it still has performance upgrades but it has been noticed that these upgrades may vary from user to user, in my case the FPS has an increment of almost 50-60 frames.
 
-Contact me if you want to install this on MacOS/Linux, Discord: aman_and_cats.
+#### Fix
+- Google login support was improved, there is an attempt to force webGPU but it most likely won't work, that's about it.
 
-Inspired by [NeXiDE's NeXi-Client](https://github.com/NeXi-Client/NeXi-Client).
+#### New Features:
+- ***Dynamic Discord RPC***: The Discord RPC now tells whether you are in the lobby, in a game or even in the store browsing or buying. Users can join you directly from your profile by clicking Join Game button. In case you have too many stalkers or don't want people to be able to join your game, you can press <kbd>F6</kbd> to disable/enable the Join Game Button (thanks fuunara).
+
+- ***Dynamic Join Links***: In case you want to invite someone to your game and don't have joins on, then you can press F9 to immediately copy a dynamic invite link ready for discord, simply paste it in discord and the user can join from there.
+
+- ***Personal Special Stats***: There are stats on our profiles that we don't know about, like our account creation date, our preferred weapons and the number of eliminations with each, our longest win streak, etc. This update brings a Discord bot and client binding allowing you to automatically view your account statistics at any time directly on Discord (use <kbd>F12</kbd> to copy your ID and use it with the bot). This can be used to flex too lol.
+
+### v1.20.5
+- Google support added
+
+### v1.20.9
+- Auto-updates added
